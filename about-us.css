@@ -1,0 +1,23 @@
+.join-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.join-text {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.accent-text {
+  color: #bc3a80;
+}
+
+@media (max-width: 900px) {
+  .join-main-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
