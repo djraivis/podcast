@@ -5,6 +5,15 @@
   flex-grow: 1;
 }
 
+.join-form {
+  background-color: #202027;
+  width: 70vw;
+  max-width: 75%;
+  min-height: 50vh;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+}
+
 .join-text {
   font-size: 2.5em;
   font-weight: bold;
@@ -15,9 +24,9 @@
   color: #bc3a80;
 }
 
-.brand-logo2 {
-  background-size: auto;
-  image-orientation: flip;
+.tree-girl {
+  width: 100%;
+  height: auto;
 }
 
 @media (max-width: 900px) {

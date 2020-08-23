@@ -23,16 +23,6 @@
   background-position: bottom left;
 }
 
-.brand-logo2 {
-  /* background-image: url(img/tree-girl-animation.svg); */
-  flex-grow: 1;
-  max-height: 70vh;
-  min-width: 1vw;
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  background-position: top;
-}
-
 .home-main-section .call-to-action {
   display: flex;
   flex-direction: column;
@@ -48,7 +38,7 @@
   }
 
   .home-main-section {
-    justify-content: center;
+    justify-content: left;
   }
 }
 
@@ -91,5 +81,5 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgb(52, 87, 178, 0.1);
+  background-color: rgba(22, 152, 70, 0.057);
 }

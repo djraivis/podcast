@@ -17,8 +17,9 @@
 
 .join-form {
   background-color: #202027;
-  width: 50vw;
+  width: 70vw;
   max-width: 75%;
+  /* max-height: 20vh; */
   padding: 2rem 4rem;
   border-radius: 20px;
 }

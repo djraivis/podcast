@@ -33,6 +33,10 @@ body {
   margin-left: 1rem;
 }
 
+.brand-logo-name:hover {
+  color: #6c63ff;
+}
+
 .main-nav ul,
 .footer-nav ul {
   display: flex;
@@ -42,7 +46,8 @@ body {
 }
 
 .main-nav a,
-.footer-nav a {
+.footer-nav a,
+.brand-logo-name a {
   color: inherit;
   text-decoration: none;
   padding: 1rem;
@@ -68,11 +73,13 @@ body {
   height: 70px;
   background-color: #202027;
   font-weight: bold;
+  color: white;
 }
 
 .social-link img {
   width: 1em;
   margin-right: 0.25rem;
+  margin-top: 10px;
 }
 
 .main-footer .container {
@@ -99,6 +106,12 @@ body {
   font-size: 1.2em;
   margin-bottom: 2rem;
   color: white;
+}
+
+.btns {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
 }
 
 .btn {
