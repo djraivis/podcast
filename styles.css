@@ -34,7 +34,7 @@ body {
 }
 
 .brand-logo-name:hover {
-  color: #6c63ff;
+  color: #adadad;
 }
 
 .main-nav ul,
@@ -74,6 +74,7 @@ body {
   background-color: #202027;
   font-weight: bold;
   color: white;
+  margin: 0%;
 }
 
 .social-link img {

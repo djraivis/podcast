@@ -47,7 +47,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: rgb(188, 58, 128, 0.1);
+  background-color: hsla(328, 53%, 48%, 0.102);
   bottom: 5vw;
   left: 5vw;
   z-index: -1;
@@ -58,7 +58,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: rgb(52, 87, 178, 0.1);
+  background-color: #2f2c5e54;
   top: 15vh;
   left: 30vw;
   z-index: -1;
@@ -82,4 +82,12 @@
   width: 100%;
   border-radius: 50%;
   background-color: rgba(22, 152, 70, 0.057);
+}
+
+.copyright {
+  font-size: small;
+  color: #adadad;
+  font-weight: lighter;
+  margin: 0;
+  padding: 6px;
 }

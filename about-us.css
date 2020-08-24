@@ -5,6 +5,16 @@
   flex-grow: 1;
 }
 
+.join-form {
+  background-color: #202027;
+  width: 70vw;
+  max-width: 75%;
+  min-height: 50vh;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  background-color: lightslategray;
+}
+
 .join-text {
   font-size: 2.5em;
   font-weight: bold;
@@ -12,7 +22,7 @@
 }
 
 .accent-text {
-  color: #bc3a80;
+  color: #dea2a2;
 }
 
 @media (max-width: 900px) {

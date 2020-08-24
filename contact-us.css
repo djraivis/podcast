@@ -12,6 +12,9 @@
   min-height: 50vh;
   padding: 2rem 4rem;
   border-radius: 20px;
+  background-color: burlywood;
+  color: white;
+  animation: mymove 5s infinite;
 }
 
 .join-text {
@@ -21,12 +24,16 @@
 }
 
 .accent-text {
-  color: #bc3a80;
+  color: #ff6584;
 }
 
-.tree-girl {
-  width: 100%;
-  height: auto;
+.email {
+  color: #6c63ff;
+}
+
+.email:hover {
+  color: #adadad;
+  cursor: pointer;
 }
 
 @media (max-width: 900px) {
