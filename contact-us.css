@@ -12,7 +12,7 @@
   min-height: 50vh;
   padding: 2rem 4rem;
   border-radius: 20px;
-  background-color: burlywood;
+  background-color: rgb(131, 118, 99);
   color: white;
   animation: mymove 5s infinite;
 }
