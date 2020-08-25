@@ -33,11 +33,7 @@ body {
   margin-left: 1rem;
 }
 
-.brand-logo-name:hover {
-  color: #adadad;
-}
-
-.main-nav ul,
+.main-nav a ul,
 .footer-nav ul {
   display: flex;
   margin: 0;
@@ -46,16 +42,10 @@ body {
 }
 
 .main-nav a,
-.footer-nav a,
-.brand-logo-name a {
+.footer-nav a {
   color: inherit;
   text-decoration: none;
   padding: 1rem;
-}
-
-.main-nav a:hover,
-.footer-nav a:hover {
-  color: #adadad;
 }
 
 .main-header,
@@ -67,6 +57,7 @@ body {
 
 .main-header {
   height: 140px;
+  font-weight: bold;
 }
 
 .main-footer {
@@ -77,10 +68,17 @@ body {
   margin: 0%;
 }
 
+.copyright {
+  font-size: small;
+  color: #cccccc;
+  font-weight: lighter;
+  margin: 0;
+  padding: 6px;
+}
+
 .social-link img {
   width: 1em;
   margin-right: 0.25rem;
-  margin-top: 10px;
 }
 
 .main-footer .container {
@@ -109,15 +107,9 @@ body {
   color: white;
 }
 
-.btns {
-  display: flex;
-  text-align: center;
-  flex-direction: row;
-}
-
 .btn {
   color: white;
-  background-color: #6c63ff;
+  background-color: #2f303a;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -127,10 +119,24 @@ body {
   cursor: pointer;
 }
 
+.main-nav a:hover,
+.brand-logo-name:hover,
+.footer-nav a:hover,
+.email:hover {
+  color: #ff6584;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active,
 .btn:hover {
-  background-color: #e83650;
+  background-color: #cccccc;
+  color: #2f303a;
 }
 
 .btn:focus {
-  background-color: #2796ff;
+  background-color: yellow;
+}
+
+.accent-text {
+  color: #ff6584;
 }

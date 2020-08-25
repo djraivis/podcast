@@ -7,51 +7,123 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" type="text/css" href="circles.css">
   <title>Japanese Speaking in English</title>
 </head>
 
 <body class="container full-height-grow">
+
+
+
+
+
   <header class="main-header">
     <a href="index.html" class="brand-logo">
       <img src="img/logo-final.png">
       <div class="brand-logo-name">Japanese Speaking in English</div>
     </a>
 
-    <nav class="main-nav">
-      <ul>
-        <li><a href="podcast.html">podcast</a></li>
-        <li><a href="about-us.html">about us</a></li>
-        <li><a href="contact-us.html">contact us</a></li>
-      </ul>
-    </nav>
+    <div id="main-nav">
+      <a href="podcast.html"><button class="btn">podcast</button></a>
+      <a href="about-us.html"><button class="btn">about us</button></a>
+      <a href="contact-us.html"><button class="btn">contact us</button></a>
+    </div>
+
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("main-nav");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
   </header>
 
 
+
+
+
+
   <section class="home-main-section">
+
+
+
+
+
+
+
+
     <div class="img-wrapper">
       <div class="lady-image"></div>
     </div>
+
+
+
+
+
     <div class="call-to-action">
 
 
+
+
+
+
+
+
+
       <h1 class="title">Feel The Music</h1>
-
-      <span class="subtitle">This is a language exchange music podcast <br>
-        Let's Share Something Interesting!!!</span>
-
+      <span class="subtitle">This is a language exchange music podcast <br> Let's Share Something Interesting!!!</span>
       <span class="subtitle"> Share your experiences travelling abroad, your recommendations, places to visit in Japan.
-        And we love Electronic
-        Dance Music.</span>
-      <section class="btns">
-        <a href="podcast.html" class="btn">Listen Now</a>
-      </section>
-
+        And we love Electronic Dance Music.</span>
+      <a href="podcast.html" class="btn">Listen Now</a>
     </div>
   </section>
 
   <div class="home-page-circle-1"></div>
   <div class="home-page-circle-2"></div>
   <div class="home-page-circle-3"></div>
+
+
+  <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav">
+        <ul>
+          <li class="copyright"><a href="https://djraivis.github.io/">
+              Copyright©️2020 by Raivis Inc. All right reserved
+            </a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="https://open.spotify.com/show/2Q207AayVI3Khv8G1gObxP" target="_blank" class="social-link">
+              <!-- <img src="img/twitter.svg"> -->
+              Spotify
+            </a>
+          </li>
+          <li>
+            <a href="https://podcasts.apple.com/gb/podcast/lets-share-something-interesting/id1513756244"
+              target="_blank" class="social-link">
+              <!-- <img src="img/facebook.svg"> -->
+              iTunes
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
 
 </body>
 

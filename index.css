@@ -16,8 +16,8 @@
 .home-main-section .lady-image {
   background-image: url(img/123.png);
   flex-grow: 1;
-  max-height: 70vh;
-  min-width: 30vw;
+  max-height: 80vh;
+  min-width: 25vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom left;
@@ -29,7 +29,6 @@
   align-items: flex-start;
   margin: 1rem;
   align-self: center;
-  color: #bc3a80;
 }
 
 @media (max-width: 900px) {
@@ -38,7 +37,7 @@
   }
 
   .home-main-section {
-    justify-content: left;
+    justify-content: center;
   }
 }
 
@@ -47,7 +46,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: hsla(328, 53%, 48%, 0.102);
+  background-color: #bb3a7f1a;
   bottom: 5vw;
   left: 5vw;
   z-index: -1;
@@ -58,7 +57,7 @@
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
-  background-color: #2f2c5e54;
+  background-color: #2f2c5e70;
   top: 15vh;
   left: 30vw;
   z-index: -1;
@@ -84,10 +83,29 @@
   background-color: rgba(22, 152, 70, 0.057);
 }
 
-.copyright {
-  font-size: small;
-  color: #adadad;
-  font-weight: lighter;
-  margin: 0;
-  padding: 6px;
+/* =================================== */
+
+.home-page-circle-4 {
+  position: absolute;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  background-color: #cccccc;
+  bottom: 44vh;
+  left: 76.1vw;
+  outline: none;
+  text-decoration: none;
+  border-style: inset;
 }
+
+.home-page-circle-5 {
+  position: absolute;
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 50%;
+  background-color: #cccccc;
+  bottom: 46vh;
+  left: 36.9vw;
+  border-style: inset;
+}
+/* ===================================== */

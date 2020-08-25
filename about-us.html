@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="styles.css" rel="stylesheet">
   <link href="about-us.css" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
   <title>Japanese Speaking in English</title>
 </head>
 
@@ -16,38 +15,47 @@
     <header class="main-header">
       <a href="index.html" class="brand-logo">
         <img src="img/logo-final.png">
-        <div class="brand-logo-name">Japanese Speaking in English <span class="accent-text"> | about us</span></div>
+        <div class="brand-logo-name">Japanese Speaking in English</div>
       </a>
-      <nav class="main-nav">
-        <ul>
-          <li><a href="podcast.html">podcast</a></li>
-          <li><a href="about-us.html">about us</a></li>
-          <li><a href="contact-us.html">contact us</a></li>
-        </ul>
-      </nav>
+
+      <div id="main-nav">
+        <a href="podcast.html"><button class="btn">podcast</button></a>
+        <a href="about-us.html"><button class="btn active">about us</button></a>
+        <a href="contact-us.html"><button class="btn">contact us</button></a>
+      </div>
+
+      <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("main-nav");
+        var btns = header.getElementsByClassName("btn active");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+      </script>
     </header>
 
-    <section class="join-main-section">
-      <h1 class="join-text">
+    <section class="about-us-main-section">
+      <h1 class="about-us-text">
         About
         <span class="accent-text">us</span>
       </h1>
 
-      <div class="join-form">
-        <img src="img/illustration.png" width="550" height="auto">
-        <span class="subtitle"> <br> <span class="#">Music, books, studying English and have fun. <br>Meeting
-            new
-            people, friends
-            and relationships.</span>
-
+      <div class="about-ipad-form">
+        <img class="illu-about" src="img/illustration.png">
+        <span class="subtitle"> <br> <span class="#">We like music, studying English-Japanese and have fun. Meeting new
+            people, make friends and relationships.</span>
         </span>
       </div>
     </section>
   </div>
 
-  <div class="home-page-circle-1"></div>
-  <div class="home-page-circle-2"></div>
-  <div class="home-page-circle-3"></div>
+  <div class="all-page-circle-2"></div>
+  <div class="all-page-circle-1"></div>
+  <div class="all-page-circle-3"></div>
 
   <footer class="main-footer">
     <div class="container">
@@ -60,7 +68,7 @@
       <nav class="footer-nav">
         <ul>
           <li class="copyright"><a href="https://djraivis.github.io/">
-              Copyright©️2020 by Raivis Inc. All right reserved
+              Copyright©️2020 by Raivis
             </a></li>
         </ul>
       </nav>
