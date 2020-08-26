@@ -41,6 +41,17 @@
   }
 }
 
+.home-page-circle-0 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: hsla(60, 96%, 56%, 0.096);
+  bottom: 28vw;
+  right: 14vw;
+  z-index: -1;
+}
+
 .home-page-circle-1 {
   position: absolute;
   width: 25vw;

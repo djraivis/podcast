@@ -5,7 +5,7 @@
   flex-grow: 1;
 }
 
-.about-us-main-section {
+.about-us-form {
   background-color: #202027;
   width: 70vw;
   max-width: 75%;
@@ -15,7 +15,7 @@
   border-style: inset;
 }
 
-.illu-about {
+.illu-about-us {
   width: 550px;
   align-items: center;
   height: auto;
@@ -32,6 +32,17 @@
     max-width: inherit;
     margin: 2rem 0;
   }
+}
+
+.about-us-page-circle-0 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: hsla(60, 96%, 56%, 0.096);
+  bottom: 28vw;
+  right: 14vw;
+  z-index: -1;
 }
 
 .about-us-page-circle-1 {
