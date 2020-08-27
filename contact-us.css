@@ -5,6 +5,12 @@
   flex-grow: 1;
 }
 
+/* .box-1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+} */
+
 .contact-us-form {
   background-color: #131212;
   width: 70vw;

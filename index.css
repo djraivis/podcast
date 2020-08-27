@@ -95,28 +95,3 @@
 }
 
 /* =================================== */
-
-.home-page-circle-4 {
-  position: absolute;
-  width: 2.5vw;
-  height: 2.5vw;
-  border-radius: 50%;
-  background-color: #cccccc;
-  bottom: 44vh;
-  left: 76.1vw;
-  outline: none;
-  text-decoration: none;
-  border-style: inset;
-}
-
-.home-page-circle-5 {
-  position: absolute;
-  width: 0.4vw;
-  height: 0.4vw;
-  border-radius: 50%;
-  background-color: #cccccc;
-  bottom: 46vh;
-  left: 36.9vw;
-  border-style: inset;
-}
-/* ===================================== */

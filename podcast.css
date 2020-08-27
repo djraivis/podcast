@@ -1,11 +1,17 @@
-.podcast-main-section {
+.podcast-main-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
 }
 
-.podcast-form {
+/* .box-1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+} */
+
+.box-2 {
   background-color: #202027;
   width: 70vw;
   max-width: 75%;
@@ -15,22 +21,29 @@
   border-style: inset;
 }
 
-.illu-soundcloud {
-  width: 713px;
+.inside-box-2-soundcloud-iframe {
+  justify-content: center;
+  width: 700px;
   align-items: center;
-  height: 444px;
+  height: 439px;
 }
 
 @media (max-width: 900px) {
-  .podcast-main-section {
+  .podcast-main-container {
     flex-direction: column;
     justify-content: center;
   }
 
-  .podcast-form {
+  .box-2 {
     width: 80vw;
     max-width: inherit;
     margin: 2rem 0;
+  }
+  .inside-box-2-soundcloud-iframe {
+    width: 65vw;
+    max-width: inherit;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

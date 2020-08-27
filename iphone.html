@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <link href="iphone.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".home").click(function () {
+        $(".screen").toggleClass('active')
+      })
+    })
+  </script>
+
+  <title>Japanese Speaking in English</title>
+</head>
+
+<body class="container full-height-grow">
+
+  <header class="main-header">
+    <a href="index.html" class="brand-logo">
+      <img src="img/logo-final.png">
+      <div class="brand-logo-name">Japanese Speaking in English</div>
+    </a>
+
+    <div id="main-nav">
+      <a href="podcast.html"><button class="btn active">podcast</button></a>
+      <a href="about-us.html"><button class="btn">about us</button></a>
+      <a href="contact-us.html"><button class="btn">contact us</button></a>
+    </div>
+
+
+    <script>
+      // Add active class to the current button (highlight it)
+      var header = document.getElementById("main-nav");
+      var btns = header.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+
+
+  </header>
+
+
+
+
+  <section class="iphone-main-section">
+
+
+    <div class="center">
+      <div class="mobile">
+        <div class="screen active"></div>
+        <div class="home"></div>
+        <div class="inner"></div>
+        <ul class="volume">
+          <li></li>
+          <li></li>
+        </ul>
+        <ul class="silent">
+          <li></li>
+        </ul>
+        <ul class="sleep">
+          <li></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+    <!-- <h1 class="enjoy-the-iphone">
+      Enjoy <small>the</small> <br>
+      <span class="accent-text">iPhone
+      </span>
+    </h1> -->
+
+    <!-- <div class="iphone-form">
+      <selection class="display">
+        <div class="display">
+          <button class="btn">Join Now</button>
+          <button class="btn">Join Now</button>
+          <button class="iphone-page-circle-4"></button>
+          <button class="iphone-page-circle-5"></button>
+        </div>
+      </selection>
+ 
+ 
+ 
+ 
+ 
+    </div> -->
+
+  </section>
+
+
+  <div class="iphone-page-circle-0"></div>
+  <div class="iphone-page-circle-1"></div>
+  <div class="iphone-page-circle-2"></div>
+  <div class="iphone-page-circle-3"></div>
+
+  <!-- <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav">
+        <ul>
+          <li class="copyright"><a href="https://djraivis.github.io/">
+              Copyright©️2020 by Raivis Inc. All right reserved
+            </a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="https://open.spotify.com/show/2Q207AayVI3Khv8G1gObxP" target="_blank" class="social-link">
+              <img src="img/twitter.svg">
+              Spotify
+            </a>
+          </li>
+          <li>
+            <a href="https://podcasts.apple.com/gb/podcast/lets-share-something-interesting/id1513756244"
+              target="_blank" class="social-link">
+              <img src="img/facebook.svg">
+              iTunes
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+  </footer> -->
+
+
+</body>
+
+</html>

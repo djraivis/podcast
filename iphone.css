@@ -1,0 +1,289 @@
+.iphone-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.box-1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.enjoy-the-iphone {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin: 0;
+  background-color: rgb(67, 6, 124);
+}
+
+.accent-text {
+  color: #bc3a80;
+}
+
+.iphone-form {
+  background-color: #202027;
+  width: 70vw;
+  height: 30vw;
+  max-width: 75%;
+  min-height: 50vh;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  border-style: inset;
+}
+
+.display {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+*/ .display:last-child {
+  margin-bottom: 0;
+  background-color: #d31515;
+}
+*/ .iphone-page-circle-4 {
+  /* position: absolute; */
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  background-color: #cccccc;
+  bottom: 44vh;
+  left: 76.1vw;
+  outline: none;
+  text-decoration: none;
+  border-style: inset;
+}
+
+.iphone-page-circle-5 {
+  /* position: absolute; */
+  width: 0.4vw;
+  height: 0.4vw;
+  border-radius: 50%;
+  background-color: #cccccc;
+  bottom: 45vh;
+  left: 36.9vw;
+  border-style: inset;
+}
+/* ===========iPhone============ */
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile {
+  width: 276px;
+  height: 580px;
+  background: #fff;
+  border-radius: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0.3);
+}
+
+.screen {
+  position: relative;
+  background: #262626;
+  width: 256px;
+  height: 455px;
+  margin: 58px auto;
+  overflow: hidden;
+}
+
+.screen:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100%;
+  transform: skewX(-5deg) translateX(-50%);
+}
+
+.screen.active {
+  background: url(img/screen6.png);
+  background-size: cover;
+  /* background-color: #2F303A; */
+}
+
+.home {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border: 2px solid #cecece;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.inner {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background: #262626;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.inner:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -22px;
+  background: #262626;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.inner:after {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  background: #262626;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.volume {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+  left: -2px;
+}
+
+.volume li {
+  list-style: none;
+  width: 2px;
+  height: 30px;
+  background: #ccc;
+  margin: 10px 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.silent {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: -2px;
+}
+
+.silent li {
+  list-style: none;
+  width: 2px;
+  height: 20px;
+  background: #ccc;
+  margin: 10px 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.sleep {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 90px;
+  right: -2px;
+}
+
+.sleep li {
+  list-style: none;
+  width: 2px;
+  height: 30px;
+  background: #ccc;
+  margin: 10px 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* ===========iPhone=========== */
+@media (max-width: 900px) {
+  .iphone-main-section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .iphone-form {
+    width: 80vw;
+    max-width: inherit;
+    margin: 2rem 0;
+  }
+}
+
+.iphone-page-circle-0 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: hsla(60, 96%, 56%, 0.096);
+  bottom: 28vw;
+  right: 14vw;
+  z-index: -1;
+}
+
+.iphone-page-circle-1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: #bb3a7f1a;
+  bottom: 5vw;
+  left: 5vw;
+  z-index: -1;
+}
+
+.iphone-page-circle-2 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: #2f2c5e70;
+  top: 15vh;
+  left: 30vw;
+  z-index: -1;
+}
+
+.iphone-page-circle-3 {
+  position: absolute;
+  overflow: hidden;
+  width: 45vw;
+  height: 45vw;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.iphone-page-circle-3::before {
+  content: "";
+  transform: translate(40%, 40%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(22, 152, 70, 0.057);
+}
+
+/* ==========not used====== */
+
+/* .illu-soundcloud {
+  width: 713px;
+  align-items: center;
+  height: 444px;
+} */
