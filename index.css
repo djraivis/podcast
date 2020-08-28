@@ -46,7 +46,7 @@
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  background-color: hsla(60, 96%, 56%, 0.096);
+  background-color: hsla(60, 96%, 56%, 0.116);
   bottom: 28vw;
   right: 14vw;
   z-index: -1;
@@ -91,7 +91,7 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(22, 152, 70, 0.057);
+  background-color: rgba(22, 152, 70, 0.096);
 }
 
 /* =================================== */
