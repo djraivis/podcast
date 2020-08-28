@@ -5,8 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script>
+    var header = document.getElementById("main-nav");
+    var btns = header.getElementsByClassName("btn active");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".home").click(function () {
+        $(".screen").toggleClass('active')
+      })
+    })
+  </script>
   <link href="styles.css" rel="stylesheet">
   <link href="about-us.css" rel="stylesheet">
+
   <title>Japanese Speaking in English</title>
 </head>
 
@@ -15,27 +35,15 @@
     <header class="main-header">
       <a href="index.html" class="brand-logo">
         <img src="img/logo-final.png">
-        <div class="brand-logo-name">Japanese Speaking in English</div>
+        <div class="brand-logo-name">About Us</div>
       </a>
 
       <div id="main-nav">
+        <a href="iphone.html"><button class="btn">iphone</button></a>
         <a href="podcast.html"><button class="btn">podcast</button></a>
         <a href="about-us.html"><button class="btn active">about us</button></a>
         <a href="contact-us.html"><button class="btn">contact us</button></a>
       </div>
-
-      <script>
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("main-nav");
-        var btns = header.getElementsByClassName("btn active");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function () {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-      </script>
     </header>
 
     <section class="about-us-main-section">

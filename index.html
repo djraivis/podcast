@@ -5,6 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("main-nav");
+    var btns = header.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
   <link href="styles.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
   <title>Japanese Speaking in English</title>
@@ -23,59 +35,20 @@
       <a href="contact-us.html"><button class="btn">contact us</button></a>
     </div>
 
-    <script>
-      // Add active class to the current button (highlight it)
-      var header = document.getElementById("main-nav");
-      var btns = header.getElementsByClassName("btn");
-      for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function () {
-          var current = document.getElementsByClassName("active");
-          current[0].className = current[0].className.replace(" active", "");
-          this.className += " active";
-        });
-      }
-    </script>
+
   </header>
 
 
-
-
-
-
   <section class="home-main-section">
-
-
-
-
-
-
-
-
     <div class="img-wrapper">
       <div class="lady-image"></div>
     </div>
-
-
-
-
-
     <div class="call-to-action">
-
-
-
-
-
-
-
-
-
       <h1 class="title">Feel The Music</h1>
       <span class="subtitle">This is a language exchange music podcast <br> Let's Share Something Interesting!!!</span>
       <span class="subtitle"> Share your experiences travelling abroad, your recommendations, places to visit in Japan.
         And we love Electronic Dance Music.</span>
-
-
-      <a href="podcast.html" class="btn">Listen Now</a>
+      <a href="podcast.html" class="feel-btn">Listen Now</a>
     </div>
   </section>
 
