@@ -1,58 +1,54 @@
-.home-main-section {
+.about-us-main-section {
   display: flex;
-  align-items: stretch;
   justify-content: space-between;
+  align-items: center;
   flex-grow: 1;
 }
 
-.home-main-section .img-wrapper {
-  flex-grow: 1;
-  flex-direction: column;
-  display: flex;
-  align-items: stretch;
-  justify-content: flex-end;
+.about-us-text {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
 }
 
-.home-main-section .lady-image {
+.about-us-form {
   background-image: url(img/tree-girl-animation.svg);
-  flex-grow: 1;
-  max-height: 80vh;
-  min-width: 25vw;
-  background-size: contain;
+  background-size: 500px;
+  width: 70vw;
+  max-width: 75%;
+  min-height: 50vh;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  border-style: inset; 
+  background-color: #131212e5;
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-.home-main-section .call-to-action {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 7rem;
-  align-self: center;
 }
 
 @media (max-width: 900px) {
-  .home-main-section .img-wrapper {
-    display: none;
+  .about-us-main-section {
+    flex-direction: column;
+    justify-content: center;
   }
 
-  .home-main-section {
-    justify-content: center;
+  .about-us-form {
+    width: 80vw;
+    max-width: inherit;
+    margin: 2rem 0;
   }
 }
 
-.home-page-circle-0 {
+.about-us-page-circle-0 {
   position: absolute;
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  background-color: hsla(60, 96%, 56%, 0.116);
+  background-color: hsla(60, 96%, 56%, 0.096);
   bottom: 28vw;
   right: 14vw;
   z-index: -1;
 }
 
-.home-page-circle-1 {
+.about-us-page-circle-1 {
   position: absolute;
   width: 25vw;
   height: 25vw;
@@ -63,7 +59,7 @@
   z-index: -1;
 }
 
-.home-page-circle-2 {
+.about-us-page-circle-2 {
   position: absolute;
   width: 25vw;
   height: 25vw;
@@ -74,7 +70,7 @@
   z-index: -1;
 }
 
-.home-page-circle-3 {
+.about-us-page-circle-3 {
   position: absolute;
   overflow: hidden;
   width: 45vw;
@@ -84,14 +80,12 @@
   z-index: -1;
 }
 
-.home-page-circle-3::before {
+.about-us-page-circle-3::before {
   content: "";
   transform: translate(40%, 40%);
   position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(22, 152, 70, 0.096);
+  background-color: rgba(22, 152, 70, 0.057);
 }
-
-/* =================================== */

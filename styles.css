@@ -152,11 +152,17 @@ body {
 }
 
 .active,
-.feel-btn:hover,
 .btn:hover {
   transform: scale(1.3);
   background-color: #2f303a;
   color: #ff6584;
+}
+
+.feel-btn:hover {
+  transform: scale(1.2);
+  transition: 60ms;
+  background-color: #6C63FF;
+  color: #ffffff;
 }
 
 /* .btn:focus {
