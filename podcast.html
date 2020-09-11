@@ -5,61 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script>
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("main-nav");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
-  <link href="styles.css" rel="stylesheet">
-  <link href="iphone.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $(".home").click(function () {
-        $(".screen").toggleClass('active')
-      })
-    })
-  </script>
   <link href="styles.css" rel="stylesheet">
   <link href="podcast.css" rel="stylesheet">
   <title>Japanese Speaking in English</title>
 </head>
 
+
+
 <body class="full-height-grow">
   <div class="container full-height-grow">
-    <header class="main-header">
-      <a href="index.html" class="brand-logo">
-        <img src="img/logo-final.png">
-        <div class="brand-logo-name">Japanese Speaking in English</div>
-      </a>
-      <div id="main-nav">
-        <a href="iphone.html"><button class="btn">iphone</button></a>
-        <a href="podcast.html"><button class="btn active">podcast</button></a>
-        <a href="about-us.html"><button class="btn">about us</button></a>
-        <a href="contact-us.html"><button class="btn">contact us</button></a>
-      </div>
-
-      
-    </header>
+                  <header class="main-header">
+                    <a href="index.html" class="brand-logo">
+                      <img src="img/logo-final.png">
+                      <div class="brand-logo-name">Japanese Speaking in English</div>
+                    </a>
 
 
-    <main class="podcast-main-container">
-      <h1 class="box-1">
-        Enjoy <small>the</small> <br>
-        <span class="accent-text">podcast</span>
-      </h1>
+                <div id="main-nav">
+                  <a href="podcast.html"><button class="btn active">podcast</button></a>
+                  <a href="about-us.html"><button class="btn">about us</button></a>
+                  <a href="contact-us.html"><button class="btn">contact us</button></a>
+                </div>
+                </header>
 
-      <div class="box-2">
-        <iframe class="inside-box-2-soundcloud-iframe" frameborder="no" allow="autoplay"
+            <main class="podcast-main-container">
+                <h1 class="podcast-text">
+                  Enjoy <small>the</small> <br>
+                  <span class="accent-text">podcast</span>
+                </h1>
+
+          <div class="box-2">
+            <iframe class="inside-box-2-soundcloud-iframe" frameborder="no" allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1114205527&color=%236c63ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-        <div
+            <div
           style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
           <a href="https://soundcloud.com/sharesomething" title="LET’S SHARE SOMETHING INTERESTING!" target="_blank"
             style="color: #cccccc; text-decoration: none;">LET’S SHARE SOMETHING INTERESTING!</a> · <a
@@ -75,10 +53,7 @@
   <div class="podcast-page-circle-2"></div>
   <div class="podcast-page-circle-3"></div>
 
-  <a href="podcast-home.html" class="podcast-page-circle-4"></a>
-
-  <div class="podcast-page-circle-5"></div>
-
+  
   <footer class="main-footer">
     <div class="container">
       <nav class="footer-nav">
@@ -90,7 +65,7 @@
       <nav class="footer-nav">
         <ul>
           <li class="copyright"><a href="https://djraivis.github.io/">
-              Copyright©️2020 by Raivis
+              Copyright©️2020 by Raivis and Hisae
             </a></li>
         </ul>
       </nav>

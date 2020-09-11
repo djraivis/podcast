@@ -5,21 +5,25 @@
   flex-grow: 1;
 }
 
-.box-1 {
+.contact-us-text {
   font-size: 2em;
   font-weight: bold;
   margin: 0;
-  background: blue;
 }
 
+
 .contact-us-form {
-  background-color: #131212;
+  background-image: url(img/illustration.png);
+  background-size: 500px;
   width: 70vw;
   max-width: 75%;
   min-height: 50vh;
   padding: 2rem 4rem;
   border-radius: 20px;
-  border-style: inset;
+  border-style: inset; 
+  background-color: #131212e5;
+  background-repeat: no-repeat;
+  
 }
 
 .illu-contact-us {
@@ -91,5 +95,5 @@
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  background-color: rgba(22, 152, 70, 0.116);
+  background-color: rgba(22, 152, 70, 0.057);
 }

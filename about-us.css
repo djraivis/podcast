@@ -5,20 +5,23 @@
   flex-grow: 1;
 }
 
+.about-us-text {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
 .about-us-form {
-  background-color: #202027;
+  background-image: url(img/tree-girl-animation.svg);
+  background-size: 500px;
   width: 70vw;
   max-width: 75%;
   min-height: 50vh;
   padding: 2rem 4rem;
   border-radius: 20px;
-  border-style: inset;
-}
-
-.illu-about-us {
-  width: 550px;
-  align-items: center;
-  height: auto;
+  border-style: inset; 
+  background-color: #131212e5;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 900px) {

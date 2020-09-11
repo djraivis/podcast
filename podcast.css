@@ -5,8 +5,9 @@
   flex-grow: 1;
 }
 
-.box-1 {
-  font-size: 1.5em;
+
+.podcast-text {
+  font-size: 2em;
   font-weight: bold;
   margin: 0;
 }

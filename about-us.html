@@ -5,28 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script>
-    var header = document.getElementById("main-nav");
-    var btns = header.getElementsByClassName("btn active");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
-  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function () {
-      $(".home").click(function () {
-        $(".screen").toggleClass('active')
-      })
-    })
-  </script>
   <link href="styles.css" rel="stylesheet">
   <link href="about-us.css" rel="stylesheet">
-
   <title>Japanese Speaking in English</title>
 </head>
 
@@ -35,15 +15,15 @@
     <header class="main-header">
       <a href="index.html" class="brand-logo">
         <img src="img/logo-final.png">
-        <div class="brand-logo-name">About Us</div>
+        <div class="brand-logo-name">Japanese Speaking in English</div>
       </a>
-
       <div id="main-nav">
-        <a href="iphone.html"><button class="btn">iphone</button></a>
         <a href="podcast.html"><button class="btn">podcast</button></a>
         <a href="about-us.html"><button class="btn active">about us</button></a>
         <a href="contact-us.html"><button class="btn">contact us</button></a>
       </div>
+
+
     </header>
 
     <section class="about-us-main-section">
@@ -51,11 +31,9 @@
         About
         <span class="accent-text">us</span>
       </h1>
-
+  
       <div class="about-us-form">
-        <img class="illu-about-us" src="img/illustration.png">
-        <span class="subtitle"> <br> <span class="#">We like music, studying English-Japanese and have fun. Meeting new
-            people, make friends and relationships.</span>
+        <span>There was a day, there was a time when we met on the app. The main purpose was to study a language. It was easy to send text messages, but it wasn't easy to record our voice. Sometimes it took more than 2 hours just to record one sentence. But we did it and decided to share our experiences with others in an efficient way how to study a language and we thank everyone who participated. This was a fun time during which we progressed the most. Hope you'll enjoy our podcast. Our best from us - Raivis and Hisae.
         </span>
       </div>
     </section>
@@ -77,7 +55,7 @@
       <nav class="footer-nav">
         <ul>
           <li class="copyright"><a href="https://djraivis.github.io/">
-              Copyright©️2020 by Raivis
+              Copyright©️2020 by Raivis and Hisae
             </a></li>
         </ul>
       </nav>
