@@ -14,7 +14,7 @@
 }
 
 .home-main-section .lady-image {
-  background-image: url(img/illustration.png);
+  background-image: url(img/personal_email_t7nw.svg);
   flex-grow: 1;
   max-height: 80vh;
   min-width: 30vw;
@@ -63,16 +63,16 @@
   z-index: -1;
 }
 
-/* .home-page-circle-2 {
+.home-page-circle-2 {
   position: absolute;
-  width: 10vw;
-  height: 10vw;
+  width: 25vw;
+  height: 25vw;
   border-radius: 50%;
-  background-color: #bb3a7f1a;
-  top: 16vh;
+  background-color: #2f2c5e70;
+  top: 15vh;
   left: 30vw;
   z-index: -1;
-} */
+}
 
 .home-page-circle-3 {
   position: absolute;
