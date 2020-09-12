@@ -48,6 +48,7 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  align-items: center;
 }
 
 .main-nav a,
@@ -56,6 +57,13 @@ body {
   text-decoration: none;
   padding: 1rem;
 }
+
+.social-link img {
+  width: 15em;
+  align-items: center;
+  margin-right: 0.25rem;
+}
+
 
 .main-header,
 .main-footer {
@@ -94,10 +102,6 @@ body {
   color: #ff6584;
 }
 
-.social-link img {
-  width: 1em;
-  margin-right: 0.25rem;
-}
 
 .title {
   font-weight: 500;
