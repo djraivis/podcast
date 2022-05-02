@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script>
     // Add active class to the current button (highlight it)
-    var header = document.getElementById("main-nav");
-    var btns = header.getElementsByClassName("btn");
+    var header = document.getElementById("main-nav")
+    var btns = header.getElementsByClassName("btn")
     for (var i = 0; i < btns.length; i++) {
       btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
+        var current = document.getElementsByClassName("active")
+        current[0].className = current[0].className.replace(" active", "")
+        this.className += " active"
+      })
     }
   </script>
   <link href="styles.css" rel="stylesheet">
@@ -45,8 +45,11 @@
     </div>
     <div class="call-to-action">
       <h1 class="title">Feel The Music</h1>
-      <span class="subtitle">This is a language exchange music podcast called "Let's Share Something Interesting" where Japanese people can speak in English. </span>
-      <span class="subtitle"> Share their experiences travelling abroad or their recommendations about places where to visit in Japan. Podcast made by Raivis in London, UK and Hisae in Kamakura, Japan.</span>
+      <span class="subtitle">With a language exchange music podcast, <br>"Let's Share Something Interesting",
+        where
+        Japanese people can speak English. </span>
+      <span class="subtitle">Share their experiences from travelling abroad or their recommendations about places where
+        to visit in Japan.</span>
       <a href="podcast.html" class="feel-btn">Listen Now</a>
     </div>
   </section>
